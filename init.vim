@@ -82,6 +82,7 @@ nnoremap <c-\> :vsplit<cr>
 set rtp+=C:/Users/tuanc/AppData/Local/nvim/Vundle.vim
 call vundle#begin('C:/Users/tuanc/AppData/Local/nvim/Vundle.vim')
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'xiyaowong/nvim-transparent'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
 Plugin 'scrooloose/nerdtree'
@@ -110,6 +111,9 @@ Plugin 'flazz/vim-colorschemes'
 
 "Latex
 Plugin 'xuhdev/vim-latex-live-preview'
+
+"Practice vim
+Plugin 'ThePrimeagen/vim-be-good'
 call vundle#end()
 "}}}
 
@@ -350,4 +354,8 @@ let g:closetag_shortcut = '>'
 " Add > at current position without closing the current tag, default is ''
 "
 let g:closetag_close_shortcut = '<leader>>'
+"}}}
+
+"NEOVIM-TRANSPARENT CONFIGURATION{{{
+let g:transparent_enabled=v:true
 "}}}
