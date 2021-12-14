@@ -74,6 +74,7 @@ nnoremap <leader>f :Telescope buffers<cr>
 nnoremap <leader>g :PluginInstall<cr>
 nnoremap <right> :tabn<cr>
 nnoremap <left> :tabp<cr>
+nnoremap <c-\> :vsplit<cr>
 "}}}
 
 "Plugin Install {{{
@@ -304,6 +305,7 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+"}}}
 
 "VIM-TAG CONFIGURATION{{{
 " filenames like *.xml, *.html, *.xhtml, ...
