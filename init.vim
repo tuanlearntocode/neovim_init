@@ -35,9 +35,9 @@ set foldmarker={{{,}}}
 
 "BASIC STYLING{{{
 highlight Comment cterm=italic
-highlight CursorLine ctermbg=Black cterm=NONE
-highlight CursorLineNr ctermbg=Black cterm=bold ctermfg=Green
-highlight LineNr ctermbg=Black ctermfg=White
+highlight CursorLine ctermbg=NONE cterm=NONE
+highlight CursorLineNr ctermbg=NONE cterm=bold ctermfg=Green
+highlight LineNr ctermbg=NONE ctermfg=White
 colorscheme gruvbox
 "}}}
 
